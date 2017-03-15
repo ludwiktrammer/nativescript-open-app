@@ -1,0 +1,29 @@
+{
+  "name": "nativescript-open-app",
+  "version": "0.1.0",
+  "description": "A NativeScript plugin for opening other applications on the device (with app store fallback).",
+  "main": "open-app",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.5.0",
+      "android": "2.5.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ludwiktrammer/nativescript-open-app.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "Open",
+    "Open App",
+    "Android",
+    "iOS",
+    "Launch",
+    "Start"
+  ],
+  "author": "Ludwik Trammer <ludwik@gmail.com>",
+  "license": "MIT",
+  "bugs": "https://github.com/ludwiktrammer/nativescript-open-app/issues",
+  "homepage": "https://github.com/ludwiktrammer/nativescript-open-app"
+}
