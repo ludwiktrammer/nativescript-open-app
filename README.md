@@ -1,4 +1,4 @@
-# Nativesscript Open App plugin
+# NativeScript Open App plugin
 A NativeScript plugin for opening other applications on the device (with app store fallback)
 
 ## Usage
