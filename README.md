@@ -1,8 +1,15 @@
 # NativeScript Open App plugin
 A NativeScript plugin for opening other applications on the device (with app store fallback)
 
-## Usage
 
+## Installation
+Run the following command from the root of your project:
+
+```
+tns plugin add nativescript-open-app
+```
+
+## Usage
 ### Android
 To open an app, you need its id (for example "com.facebook.katana" for Facebook and "com.twitter.android" for Twitter). 
 You can easily find it in app's URL on https://play.google.com.
