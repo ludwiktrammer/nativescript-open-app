@@ -2,7 +2,7 @@
   "name": "nativescript-open-app",
   "version": "0.2.0",
   "description": "A NativeScript plugin for opening other applications on the device (with app store fallback).",
-  "main": "./open-app.js",
+  "main": "open-app",
   "typings": "./open-app.d.ts",
   "nativescript": {
     "platforms": {
