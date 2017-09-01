@@ -52,12 +52,12 @@ openApp("com.facebook.katana");
 
 ### iOS
 To open an app on iOS you need a schema registered by the app.
-Additionally you are required to whitelist the schemas for all apps you want to be able to open. Add them to your `app/App_Resources/iOS/Info.plist` (and additionally include "itms" schema used by the App Store):
+Additionally you are required to whitelist the schemas for all apps you want to be able to open. Add them to your `app/App_Resources/iOS/Info.plist` (and additionally include "itms-apps" schema used by the App Store):
 
 ```
   <key>LSApplicationQueriesSchemes</key>
   <array>
-    <string>itms</string>
+    <string>itms-apps</string>
     <string>twitter</string>
   </array>
 ```

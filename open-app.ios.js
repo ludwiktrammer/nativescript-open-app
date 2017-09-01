@@ -12,7 +12,7 @@ function openApp(appID, storeFallback, appleStoreId) {
     }
     else if (storeFallback && appleStoreId) {
         // can't open app - open store
-        url = NSURL.URLWithString("itms://itunes.apple.com/app/id" + appleStoreId);
+        url = NSURL.URLWithString("itms-apps://itunes.apple.com/app/id" + appleStoreId);
         if (sharedApplication.canOpenURL(url)) {
             sharedApplication.openURL(url);
         }
