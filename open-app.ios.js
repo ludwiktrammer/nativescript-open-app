@@ -3,7 +3,7 @@ var utils = require("utils/utils");
 
 function openApp(appID, storeFallback, appleStoreId) {
     if (storeFallback === void 0) { storeFallback = true; }
-    var sharedApplication = utils.ios.getter(UIApplication, UIApplication.sharedApplication);
+    var sharedApplication = UIApplication.sharedApplication;
     var url = NSURL.URLWithString(appID.trim());
     if (sharedApplication.canOpenURL(url)) {
         // open app
